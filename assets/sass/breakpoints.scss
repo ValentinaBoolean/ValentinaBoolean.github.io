@@ -1,0 +1,598 @@
+/* GLOBAL */
+
+.container-fluid {
+    width: 100%;
+}
+
+/* EXTRA SMALL */
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #050819;
+    }
+
+    form {
+        margin-top: 20px;
+
+        input,
+        textarea {
+            width: 300px;
+    }
+
+        .submit-button {
+            margin-bottom: 40px;
+        }
+   
+    }
+
+    /* UTILITIES */
+
+    .xs-col {
+        flex-direction: column;
+    }
+
+    .xs-hidden {
+        display: none !important;
+    }
+
+    .title {
+        h1 {
+            font-size: 4rem;
+            line-height: 80px;
+        }
+    }
+
+    .small-maring-top {
+        margin-top: 100px;
+     }
+
+    .top-position {
+        padding-top: 0px;
+    }
+
+    .small-items-center {
+        align-items: center;
+    }
+
+    /*SECTION CONTAINER*/
+
+    .section-container {
+        height: fit-content;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* HEADER */
+
+    .fixed-navbar {
+        .logo {
+            padding-left: 20px;
+        }
+    }
+
+   /* HERO */
+
+    .hero-text-container {
+        text-align: center;
+        margin-top: 30px;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        img {
+            height: 13px;
+        }
+    }
+
+    /* ABOUT */
+
+    .about-text-container {
+        padding: 30px;
+        width: 100%;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+    /* SKILLS */
+
+    .skill-section-title {
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+        h1 {
+            font-weight: 800;
+            font-size: 4rem;
+        }
+    }
+
+    .card {
+
+        i {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    /* CONTACTS */
+
+    .contact-title-container {
+
+        h1 {
+            font-size: 4rem;
+            line-height: 100px;
+        }
+    }   
+}
+
+/* SMALL */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-color: #050819;
+    }
+
+    form {
+        margin-top: 20px;
+
+        .submit-button {
+            margin-bottom: 40px;
+        }
+   
+    }
+
+    /* UTILITIES */
+
+    .sm-col {
+        flex-direction: column;
+    }
+
+    .sm-hidden {
+        display: none !important;
+    }
+ 
+     .title {
+ 
+         h1 {
+             font-size: 5rem;
+             line-height: 80px;
+         }
+     }
+
+     .small-maring-top {
+        margin-top: 150px;
+     }
+
+     .top-position {
+        padding-top: 0px;
+    }
+
+    .small-items-center {
+        align-items: center;
+    }
+
+    /* SECTION CONTAINER */
+
+    .section-container {
+        height: fit-content;
+    }
+
+    .container {
+        width: 540px;
+        height: 100%;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+   /* HERO */
+
+    .hero-text-container {
+        text-align: center;
+        margin-top: 30px;
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+            font-size: 1.9rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        img {
+            height: 13px;
+        }
+    }
+
+   /* ABOUT */
+    
+    .about-text-container {
+        padding: 30px;
+        width: 100%;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    /* SKILLS */
+
+    .skill-section-title {
+        padding-top: 150px;
+        padding-bottom: 50px;
+
+        h1 {
+            font-size: 5rem;
+        }
+    }
+
+    .card {
+    
+        i {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    /* CONTACTS */
+
+    .contact-title-container {
+
+        h1 {
+            font-size: 5rem;
+            line-height: 80px;
+        }
+
+    }
+}
+
+/* MEDIUM */ 
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: #050819;
+        background-image: url('../images/tracciato_m.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        input,
+        textarea {
+            width: 300px;
+            padding: 10px 10px;
+            margin: 4px 0;
+        }
+
+        .submit-button {
+            width: 80px;
+            padding: 10px 5px;
+        }
+    }
+
+    /* UTILITIES */
+
+    .md-col {
+        flex-direction: column;
+    }
+
+    .md-hidden {
+        display: none !important;
+    }
+
+    .title {
+
+        h1 {
+            font-size: 4rem;
+            line-height: 80px;
+        }
+    }
+
+    .top-position {
+        padding-top: 180px;
+    }
+
+    /* SECTION CONTAINER */
+
+    .section-container {
+        height: 590px;
+    }
+
+    .container {
+        width: 720px;
+        height: 100%;
+        margin: auto;
+    }
+
+   /* HERO */
+    .hero-text-container {
+        padding-left: 15px;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        img {
+            height: 12px;
+        }
+    }
+
+    /* ABOUT */
+
+    .about-text-container {
+        padding: 30px;
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    /* GALLERY */
+
+    .gallery-grid {
+        height: 490px;
+        margin-top: 100px;
+    }
+
+    /* SKILLS */
+
+    .skill-section-title {
+        padding-top: 110px;
+        padding-bottom: 60px;
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+
+    .card {
+        height: 230px;
+        width: 230px;
+        border-radius: 15px;
+
+
+        i {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            padding: 10px 10px;
+        }
+    }
+
+    /* CONTACTS */
+
+    .contact-title-container {
+
+        h1 {
+            font-size: 4rem;
+            line-height: 80px;
+        }
+    }
+}
+
+/* LARGE */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-color: #050819;
+        background-image: url('../images/tracciato_l.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    /* UTILITIES */
+
+    .lg-hidden {
+        display: none !important;
+    }
+
+    .title {
+
+        h1 {
+            font-size: 5rem;
+            line-height: 100px;
+        }
+    }
+
+    .top-position {
+        padding-top: 250px;
+    }
+
+    /* SECTION CONTAINER */
+
+    .section-container {
+        height: 763px;
+    }
+
+    .container {
+        width: 960px;
+        height: 100%;
+        margin: auto;
+    }
+
+  
+    /* HERO */
+
+    .hero-text-container {
+        padding-left: 15px;
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        img {
+            height: 14px;
+        }
+    }
+    
+    /* ABOUT */
+   
+    .about-text-container {
+        padding: 50px;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    /* GALLERY */
+
+    .gallery-grid {
+        margin-top: 110px;
+    }
+
+    /* SKILLS */
+
+    .skill-section-title {
+        padding-top: 130px;
+        padding-bottom: 80px;
+
+        h1 {
+            font-size: 5rem;
+        }
+    }
+
+    .card {
+        height: 280px;
+        width: 280px;
+        border-radius: 15px;
+
+        i {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1rem;
+            padding: 20px 20px;
+        }
+    }
+
+    /* CONTACTS */
+    
+    .contact-title-container {
+
+        h1 {
+            font-size: 5rem;
+            line-height: 100px;
+        }
+    }
+}
+
+//X-Large
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    body {
+        background-color: #050819;
+        background-image: url('../images/tracciato_xl.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    /* UTILITIES */
+
+    .xl-hidden {
+        display: none !important;
+    }
+
+    /* SECTION CONTAINER */
+
+    .section-container {
+        height: 923px;
+    }
+
+    .container {
+        width: 1140px;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+//XX-Large
+@media only screen and (min-width: 1400px) {
+    body {
+        background-color: #050819;
+        background-image: url('../images/tracciato_xxl.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+     /* UTILITIES */
+
+     .xxl-hidden {
+        display: none !important;
+    }
+
+     /* SECTION CONTAINER */
+
+     .section-container {
+        height: 1080px;
+    }
+
+    .container {
+        width: 1320px;
+        height: 100%;
+        margin: auto;
+    }
+}

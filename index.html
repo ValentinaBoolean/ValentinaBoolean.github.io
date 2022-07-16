@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Studio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/breakpoints.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/flex.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR SMALL DEVICES (XS/SM) -->
+    <header id="header-small" class="flex md-hidden lg-hidden xl-hidden xxl-hidden">
+        <div class="fixed-navbar">
+            <div class="container flex justify-between items-center">
+                <a><img class="logo"  src="./assets/images/logo.svg" alt="Logo"></a>
+                <div class="header-burger-icon">
+                    <i class="fa-solid fa-bars" onclick="openNav()"></i>
+                </div>
+                
+                <div id="sidenav-small" class="sidenav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <a href="#home" onclick="closeNav()">Home</a>
+                    <a href="#about" onclick="closeNav()">About Me</a>
+                    <a href="#works" onclick="closeNav()">Works</a>
+                    <a href="#skills" onclick="closeNav()">Skills</a>
+                    <a href="#contacts" onclick="closeNav()">Contacts</a>
+                    <div class="flex justify-around">
+                        <a href="https://github.com/ValentinaBoolean" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://it.linkedin.com/in/valentina-bulian-4a7b6462" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/valentinabulian" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR NORMAL DEVICES (MD, LG, XL, XXL) -->
+    <header id="header" class="flex sm-hidden xs-hidden">
+        <div class="fixed-navbar">
+            <div class="container flex justify-between items-center ">
+              <img class="logo" src="./assets/images/logo.svg" alt="Logo" >
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About me</a></li>
+                    <li><a href="#works" class="nav-link">Works</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contacts" class="nav-link">Contact me</a></li>
+                </ul>
+                <div class="icons">
+                    <a href="https://github.com/ValentinaBoolean" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://it.linkedin.com/in/valentina-bulian-4a7b6462" target="_blank"><i  class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/valentinabulian" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION-->
+    <section id="home" class="container-fluid">
+        <div class="section-container md-hidden lg-hidden xl-hidden xxl-hidden">
+            <div class="text-center">
+                <img class="hero-image-small" src="./assets/images/vb_img.svg" alt="Image">
+            </div>
+            <div class="hero-text-container cursor">
+                <h1>HELLO!</h1>
+                <h2>I'm Valentina Bulian</h2>
+                <p>and welcome to <img src="./assets/images/booleanStudio.svg" alt="Boolean Studio Logo"></p>
+            </div>
+        </div>
+        <div class="section-container flex sm-hidden xs-hidden">
+            <div class="grow">
+                <div class="container flex justify-between items-center">
+                    <div class="flex column items-center">
+                        <div class="hero-text-container cursor">
+                            <h1>HELLO!</h1>
+                            <h2>I'm Valentina Bulian</h2>
+                            <p>and welcome to <img src="./assets/images/booleanStudio.svg" alt="Boolean Studio Logo"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="container-fluid flex section-container" >
+        <div class="container flex justify-center items-center">
+            <div class="flex justify-center small-maring-top xs-col sm-col">
+                <div class="flex justify-center items-center cursor">
+                    <div class="title align-right">
+                        <h1>ABOUT ME</h1>
+                    </div>
+                </div>
+                <div class="about-text-container flex justify-center column">
+                  <p class="mb-7">
+                    Hi! My name is Valentina Bulian and I'm a freelance graphic designer!
+                  </p>
+                  <p class="mb-7">
+                    My minimalist approach and my problem solving skills made me love the world of UI/UX.
+                  </p>
+                  <p>
+                    Complex problems often require to be broken down in simple and intuitive solutions, and with my help you can
+                    turn your ideas in something user friendly and good looking!
+                  </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="container-fluid section-container flex" id="works">
+        <div class="container flex column">
+
+            <div class="flex justify-center items-center small-maring-top cursor md-hidden lg-hidden xl-hidden xxl-hidden">
+                <div class="title align-left ">
+                    <h1>MY WORKS</h1>
+                </div>
+            </div>
+
+            <!-- GALLERY SMALL DEVICES -->
+            <div class="gallery-small md-hidden lg-hidden xl-hidden xxl-hidden">
+                <div class="gallery-image-small gallery-image-1">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Food Of Plenty</h2>
+                        <p>
+                          Brand identity made for a plant based eCommerce.
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery-image-small gallery-image-2">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Wilhelm the Shark</h2>
+                        <p>
+                          A (not so) scary 3d shark, modeled, textured and rigged for a CGI short animation.
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery-image-small gallery-image-3">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Fabiani Gioiellerie</h2>
+                        <p>
+                          Marketing campaigns for printed magazines like Grazia and Vanity Fair.
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery-image-small gallery-image-4 ">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Easygold PRO Dashboard</h2>
+                        <p>
+                          Made a new dashboard for the established jewellery software Easygold PRO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GALLERY NORMAL DEVICES -->
+            <div class="gallery xs-hidden sm-hidden">
+
+                <div class="gallery-grid-item-1 gallery-image-1">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Food Of Plenty</h2>
+                        <p>
+                          Brand identity made for a plant based eCommerce.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-grid-item-2 gallery-image-2">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Wilhelm the Shark</h2>
+                        <p>
+                          A (not so) scary 3d shark, modeled, textured and rigged for a CGI short animation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- GALLERY SECTION TITLE -->
+                <div class="gallery-grid-item-3 flex justify-end items-center cursor">
+                    <div class="title">
+                        <h1 class="background">MY WORKS</h1>
+                    </div>
+                </div>
+
+                <div class="gallery-grid-item-4 gallery-image-3">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Fabiani Gioiellerie</h2>
+                        <p>
+                          Marketing campaigns for printed magazines like Grazia and Vanity Fair.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-grid-item-5 gallery-image-4">
+                    <div class="gallery-hover flex justify-center items-center column">
+                        <h2>Easygold PRO Dashboard</h2>
+                        <p>
+                          Made a new dashboard for the established jewellery software Easygold PRO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="container-fluid section-container flex">
+        <div class="container flex items-center column">
+            <div class="skill-section-title cursor">
+                <h1>SKILLS</h1>
+            </div>
+
+            <div class="flex justify-between gap-3 sm-col xs-col">
+                <div class="card column items-center cursor">
+                    <i class="fa-solid fa-bezier-curve"></i>
+                    <div class="flex column items-center">
+                        <h3>Graphic Design</h3>
+                        <p>
+                          I will create your new logo and brand identity! Be it digital or printed, your business will be covered!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card column justify-center items-center cursor">
+                    <i class="fa-solid fa-cube"></i>
+                    <div class="flex column items-center">
+                        <h3>3D Artist</h3>
+                        <p>
+                          I can shape your ideas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card column justify-center items-center cursor">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <div class="flex column items-center">
+                        <h3>Ui / UX Designer</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, aut voluptatum id recusandae eius quas laborum
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section class="container-fluid section-container flex" id="contacts">
+        <div class="container flex justify-between top-position small-maring-top small-items-center sm-col xs-col">
+
+            <div class="contact-title-container align-right cursor">
+                <h1>CONTACT ME</h1>
+            </div>
+
+            <div class="flex justify-center">
+                <form action="mailto:valentinabulian@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    <input type="text" id="nome" name="nome" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <textarea type="text" name="msg" id="txtid" rows="4" cols="20" maxlength="200" placeholder="Message"></textarea>
+                    <button class="submit-button" type="button">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid flex items-center justify-center footer-container">
+        <p>
+            <small>&copy; Copyright 2022, Boolean Studio. All Rights Reserved</small>
+        </p>
+    </footer>
+
+    <!-- TO TOP -->
+    <div id="to-top-container">
+        <a href="#home" class="to-top-button flex justify-center items-center">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="./assets/scripts/mobileNavbar.js"></script>
+    <script type="text/javascript" src="./assets/scripts/headerScroll.js"></script>
+    <script type="text/javascript" src="./assets/scripts/activeSection.js"></script>
+</body>
+
+</html>
