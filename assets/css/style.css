@@ -126,7 +126,9 @@ li {
 
 .header-burger-icon {
   color: white;
-  padding-right: 20px; }
+  padding-right: 20px;
+  font-size: 25px;
+  cursor: pointer; }
 
 .sidenav {
   height: 100vh;
@@ -223,8 +225,7 @@ li {
   height: 100%;
   background: rgba(0, 0, 0, 0);
   color: rgba(255, 255, 255, 0);
-  transition: 0.4s;
-  cursor: pointer; }
+  transition: 0.4s; }
   .gallery-hover:hover {
     background: rgba(253, 199, 61, 0.8);
     color: #050819; }

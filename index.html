@@ -25,7 +25,7 @@
             <div class="container flex justify-between items-center">
                 <a><img class="logo"  src="./assets/images/logo.svg" alt="Logo"></a>
                 <div class="header-burger-icon">
-                    <i class="fa-solid fa-bars" onclick="openNav()"></i>
+                    <a ><i class="fa-solid fa-bars" onclick="openNav()"></i></a> 
                 </div>
                 
                 <div id="sidenav-small" class="sidenav">
@@ -121,7 +121,7 @@
     </section>
 
     <!-- GALLERY SECTION -->
-    <section class="container-fluid section-container flex" id="works">
+    <section class="container-fluid section-container flex " id="works">
         <div class="container flex column">
 
             <div class="flex justify-center items-center small-maring-top cursor md-hidden lg-hidden xl-hidden xxl-hidden">
@@ -132,7 +132,7 @@
 
             <!-- GALLERY SMALL DEVICES -->
             <div class="gallery-small md-hidden lg-hidden xl-hidden xxl-hidden">
-                <div class="gallery-image-small gallery-image-1">
+                <div class="gallery-image-small gallery-image-1 ">
                     <div class="gallery-hover flex justify-center items-center column">
                         <h2>Food Of Plenty</h2>
                         <p>
@@ -167,7 +167,7 @@
             </div>
 
             <!-- GALLERY NORMAL DEVICES -->
-            <div class="gallery xs-hidden sm-hidden">
+            <div class="gallery xs-hidden sm-hidden cursor">
 
                 <div class="gallery-grid-item-1 gallery-image-1">
                     <div class="gallery-hover flex justify-center items-center column">
@@ -238,7 +238,8 @@
                     <div class="flex column items-center">
                         <h3>3D Artist</h3>
                         <p>
-                          I can shape your ideas.
+                            Give shape to your ideas! <br>
+                            I can create optimized 3D models, for both digital and physical representation!
                         </p>
                     </div>
                 </div>
@@ -248,7 +249,7 @@
                     <div class="flex column items-center">
                         <h3>Ui / UX Designer</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, aut voluptatum id recusandae eius quas laborum
+                            I can design and develop user interfaces, with simple and intuitive paths to  have the best user experience ever!
                         </p>
                     </div>
                 </div>
@@ -267,16 +268,16 @@
 
             <div class="flex justify-center">
                 <form method="post" action="https://forms.un-static.com/forms/1cad38bad3c5d50d33c550791991ccc902cd31ab">
-                    <input id="name" name="name" placeholder="Please enter your name" type="text" required="required">
-                    <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required">
-                    <textarea id="message" name="message" rows="4" cols="20" maxlength="200" required="required"></textarea>
+                    <input id="name" name="name" placeholder="Name" type="text" required="required">
+                    <input id="email" name="email" placeholder="E-mail" type="text" required="required">
+                    <textarea id="message" name="message" placeholder="Message" rows="4" cols="20" maxlength="200" required="required"></textarea>
                     <button name="submit" type="submit" class="submit-button">Send</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer class="container-fluid flex items-center justify-center footer-container">
+    <footer class="container-fluid flex items-center justify-center footer-container cursor">
         <p>
             <small>&copy; Copyright 2022, Boolean Studio. All Rights Reserved</small>
         </p>
