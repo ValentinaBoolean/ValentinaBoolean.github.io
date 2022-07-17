@@ -86,9 +86,11 @@
     font-size: 1rem; }
 
   /* CONTACTS */
-  .contact-title-container h1 {
-    font-size: 4rem;
-    line-height: 100px; }
+  .contact-title-container {
+    padding-top: 100px; }
+    .contact-title-container h1 {
+      font-size: 4rem;
+      line-height: 100px; }
 
   /* THANK YOU */
   .thank-you-section .thank-you-container {
@@ -174,9 +176,11 @@
     font-size: 1.1rem; }
 
   /* CONTACTS */
-  .contact-title-container h1 {
-    font-size: 5rem;
-    line-height: 80px; }
+  .contact-title-container {
+    padding-top: 150px; }
+    .contact-title-container h1 {
+      font-size: 5rem;
+      line-height: 80px; }
 
   /* THANK YOU */
   .thank-you-section .thank-you-container {
