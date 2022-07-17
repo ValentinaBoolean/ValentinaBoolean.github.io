@@ -226,9 +226,10 @@ li {
   transition: 0.4s;
   cursor: pointer; }
   .gallery-hover:hover {
-    background: rgba(253, 199, 61, 0.6);
-    color: white; }
+    background: rgba(253, 199, 61, 0.8);
+    color: #050819; }
   .gallery-hover p {
+    text-align: center;
     padding: 10px 30px; }
 
 .gallery-image-1 {
@@ -301,15 +302,34 @@ li {
     color: #9e9e9e; }
 
 /* THANK YOU PAGE */
-.thank-you-container {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.thank-you-section {
   background-color: #050819;
   color: white; }
+  .thank-you-section .thank-you-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px; }
+    .thank-you-section .thank-you-container .thank-you-image {
+      margin-left: 180px;
+      margin-bottom: 20px;
+      margin-top: 100px; }
+  .thank-you-section .back-home-btn {
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #f49819;
+    transition-duration: 0.4s;
+    padding: 10px 15px; }
+    .thank-you-section .back-home-btn p {
+      font-size: 1rem; }
+    .thank-you-section .back-home-btn a {
+      text-decoration: none;
+      color: #050819; }
+  .thank-you-section .back-home-btn:hover {
+    background-color: #fdc73d; }
 
 /* TO TOP BUTTON */
 #to-top-container {

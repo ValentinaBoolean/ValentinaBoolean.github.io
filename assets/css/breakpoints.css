@@ -88,7 +88,16 @@
   /* CONTACTS */
   .contact-title-container h1 {
     font-size: 4rem;
-    line-height: 100px; } }
+    line-height: 100px; }
+
+  /* THANK YOU */
+  .thank-you-section .thank-you-container {
+    padding-bottom: 80px; }
+    .thank-you-section .thank-you-container .thank-you-image {
+      width: 60%;
+      margin-left: 0px;
+      margin-bottom: 20px;
+      margin-top: 100px; } }
 /* SMALL */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   body {
@@ -167,7 +176,16 @@
   /* CONTACTS */
   .contact-title-container h1 {
     font-size: 5rem;
-    line-height: 80px; } }
+    line-height: 80px; }
+
+  /* THANK YOU */
+  .thank-you-section .thank-you-container {
+    padding-bottom: 80px; }
+    .thank-you-section .thank-you-container .thank-you-image {
+      width: 60%;
+      margin-left: 0px;
+      margin-bottom: 20px;
+      margin-top: 100px; } }
 /* MEDIUM */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
